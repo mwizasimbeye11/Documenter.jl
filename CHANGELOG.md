@@ -1,5 +1,9 @@
 # Documenter.jl changelog
 
+## Version `v0.25.3`
+
+* ![Bugfix][badge-bugfix] `Documenter.doctest` now correctly accepts the keyword `doctestfitlers` similar to `Documenter.makedocs`. ([#1364][github-1364], [#1435][github-1435])
+
 ## Version `v0.25.2`
 
 * ![Deprecation][badge-deprecation] The `Documenter.MathJax` type, used to specify the mathematics rendering engine in the HTML output, is now deprecated in favor of `Documenter.MathJax2`. ([#1362][github-1362], [#1367][github-1367])
@@ -650,6 +654,8 @@
 [github-1389]: https://github.com/JuliaDocs/Documenter.jl/pull/1389
 [github-1392]: https://github.com/JuliaDocs/Documenter.jl/pull/1392
 [github-1400]: https://github.com/JuliaDocs/Documenter.jl/pull/1400
+[github-1364]: https://github.com/JuliaDocs/Documenter.jl/pull/1364
+[github-1435]: https://github.com/JuliaDocs/Documenter.jl/pull/1435
 
 [documenterlatex]: https://github.com/JuliaDocs/DocumenterLaTeX.jl
 [documentermarkdown]: https://github.com/JuliaDocs/DocumenterMarkdown.jl
